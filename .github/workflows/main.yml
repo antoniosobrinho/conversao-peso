@@ -29,8 +29,8 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            antoniomourao/rotten-potatoes:latest
-            antoniomourao/rotten-potatoes:${{ github.run_number }}
+            antoniomourao/conversao-peso:latest
+            antoniomourao/conversao-peso:${{ github.run_number }}
   CD:
     needs: [CI]
     runs-on: ubuntu-latest
